@@ -1,0 +1,282 @@
+* {
+  box-sizing: border-box;
+}
+
+/*Para la barra de navegacion*/
+.container .d-flex .navbar {
+  margin-top: 0px;
+  /*background-color: #796cc7 !important;*/
+}
+.container .d-flex .navbar .container {
+  /*background-color: #545261 ;*/
+  height: 120px;
+}
+
+.container .row #carouselExampleCaptions {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/*estilo de los iconos de la barra de navegacion*/
+.container .d-flex .navbar .container .btn-group .btn {
+  background: linear-gradient(
+    to bottom,
+    #f56c7e,
+    #f7c06d,
+    #fff689,
+    #9ad0d9,
+    #c3a6e8,
+    #e3acf2,
+    #ffd1f8
+  );
+}
+
+.container .d-flex .navbar .container .btn-group .fa-facebook-official {
+  color: black;
+}
+
+.container .d-flex .navbar .container .btn-group .fa-instagram {
+  color: black;
+}
+
+/*cuando se les pase el mouse encima a la barra de navegacion*/
+
+/* links*/
+.container .d-flex .navbar a:hover {
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+/*estilo para headerV2*/
+
+.container .navbar-collapse .navbar-nav a:hover {
+  opacity: 0.75;
+  font-size: 20px;
+  color: #fff6f6 !important;
+}
+
+/*iconos*/
+.container .d-flex .navbar .btn-group .btn-info:hover {
+  background: #34a853;
+  color: #ffff;
+}
+
+.container .d-flex .navbar .btn-group .btn-danger:hover,
+.container .d-flex .navbar .container .btn-group .fa-instagram:hover {
+  background: #c13584;
+  color: #ffff;
+}
+
+.container .d-flex .navbar .btn-group .btn-primary:hover,
+.container .d-flex .navbar .container .btn-group .fa-facebook-official:hover {
+  background: #1877f2;
+  color: #ffff;
+}
+
+.fixed-top {
+  z-index: 030;
+}
+
+.invert-image {
+  filter: invert(100%);
+}
+
+/* CSS personalizado para el fondo de la barra de navegación con los colores del arcoíris */
+.bg-rainbow {
+  background: linear-gradient(
+    to bottom,
+    #f56c7e,
+    #f7c06d,
+    #fff689,
+    #9ad0d9,
+    #c3a6e8,
+    #e3acf2,
+    #ffd1f8
+  );
+}
+
+/* CSS personalizado para el fondo de la barra de navegación con los colores del arcoíris */
+.bg-colorf {
+  background: #b9ebc9;
+}
+
+/* CSS personalizado para efecto de negritas personalizado */
+.custom-bold {
+  font-weight: 800;
+}
+
+/* tamaño imagenes 512 */
+.max-512 {
+  max-width: 512px;
+  max-height: 512px;
+  width: auto;
+  height: auto;
+}
+
+.col-md-12 p {
+  margin-bottom: 50px;
+}
+
+/*estilos para croquis y recorrido*/
+
+.ubicacion {
+  display: flex;
+  width: 92.5%;
+  height: auto;
+  margin: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.ubicacion .cajaMedia {
+  width: 150px;
+}
+
+/*Contenedor Copy*/
+.copyrights-container {
+  background-color: #f0f0f0;
+}
+
+/*Cambia cursor*/
+.enlace-imagen:hover {
+  cursor: pointer;
+}
+
+/* Estilos personalizados para el footer */
+.footerf {
+  background-color: #c39bd3; /* Color lila para la primera sección */
+  color: white; /* Texto en blanco para la primera sección */
+}
+
+.copyrightf {
+  background-color: #888888; /* Color gris para la segunda sección */
+  font-size: 10px;
+}
+
+/*centrado de contenido*/
+.row .col-md-12 .contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Margenes*/
+.fat {
+  background-color: #ffffff;
+  border: 10px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+#carouselExampleCaptions {
+  margin-top: 128px;
+}
+
+/*estilos para mision y vision*/
+
+.contenedorMV {
+  /*contenedor de todo el apartado imgen y texto*/
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-image {
+  /*contenedor de una fila*/
+  display: flex;
+  flex-direction: row; /*para que imagen y texto se alinien uno al lado de otro*/
+  margin-top: 25px;
+  width: 80%;
+}
+
+.contenedorMV .text-image .row {
+  /*justificamos contenido y hacemos que el parrafo sea mas corto*/
+  width: 65%;
+  text-align: justify;
+}
+
+.contenedorMV .text-image .cont-image {
+  /*centramos la imagen dentro de su contenedor*/
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedorMV .text-image .cont-image img {
+  /*damos tamaño a las imagenes*/
+  width: 45%;
+}
+
+.carousel-container {
+  max-width: 1200px; /*ancho máximo*/
+  margin: 0 auto; /* Centra horizontalmente*/
+}
+
+.carousel-item img {
+  max-width: 100%; /*imágenes se escalan*/
+  height: auto; /* Mantener relación de aspecto */
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%; /* austar la posición vertical*/
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5); /* fondo semitransparente*/
+  color: #fff; /* Color del ícono de control */
+  border: none; /* Elimina el borde */
+  border-radius: 0; /* Elimina el radio de borde */
+  width: 50px; /* Ajusta el ancho de los botones */
+  height: 50px; /* Ajusta la altura de los botones */
+  font-size: 20px; /* Ajusta el tamaño de la fuente del ícono de control */
+  cursor: pointer;
+}
+
+.carousel-control-prev {
+  left: 0; /* Coloca el botón Prev al inicio del carrusel */
+}
+
+.carousel-control-next {
+  right: 0; /* Coloca el botón Next al final del carrusel */
+}
+
+#grid-recursos {
+  margin: 10%;
+}
+
+.EJES-UIG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Parr-Ejes {
+  margin: 0% 3% 0% 3%;
+}
+
+.bg-colori {
+  background: #d0ece7;
+}
+
+.textos-pag {
+  text-align: justify;
+}
+
+.responsive-iframe {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#recursos-img {
+  width: 80%;
+}

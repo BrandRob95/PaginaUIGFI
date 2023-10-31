@@ -1,0 +1,41 @@
+@media (max-width:600px) {
+
+
+    /*cambiamos el orden de la imagen de vision*/
+    .text-image.left {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cont-image {
+        order: 1; /* Cambia el orden del elemento, ahora se colocará después del div.row */
+    }
+
+
+    /*damos espacio a contenedor de imagen y texto*/
+    .text-image {
+        /*contenedor de una fila*/
+        display: flex;
+        flex-direction: column; /*para que imagen y texto se alinien uno al lado de otro*/
+        margin-top: 25px;
+        width: 100%;
+    }
+
+
+    .contenedorMV .text-image .row {
+        /*justificamos contenido y hacemos que el parrafo sea mas corto*/
+        width: 100%;
+        text-align: justify;
+    }
+    
+    .contenedorMV .text-image .cont-image {
+        /*centramos la imagen dentro de su contenedor*/
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+}
+
