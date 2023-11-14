@@ -280,3 +280,10 @@
 #recursos-img {
   width: 80%;
 }
+
+
+.custom-button {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #007bff;
+  width: 30%;
+}
